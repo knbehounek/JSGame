@@ -1,0 +1,63 @@
+body{
+    background: url("../Images/snake_Background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Megrim', cursive;
+
+}
+
+
+#content{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+
+}
+
+#gameTitle{
+text-align: center;
+color: #54BC1D;
+font-weight: 600;
+font-size: -webkit-xxx-large;
+font-family: 'Megrim', cursive;
+}
+
+#gameObjective{
+    color: #fd1892;
+    font-weight: 600;
+    font-family: 'Megrim', cursive;
+}
+
+#startInstructions{
+    color: #2c90fc !important;
+    font-weight: 600;
+    font-family: 'Megrim', cursive;
+}
+.scoreContent{
+    color:#fec837;
+    font-weight: 600;
+    font-family: 'Megrim', cursive;
+}
+
+#snakeCanvas{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color:black;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
+
+
+#snakeCanvas{
+    width: 75%;
+
+}
